@@ -35,7 +35,7 @@ class SpaceshipTest {
     }
 
     @Test
-    void CannotBookSameSeatTwice() {
+    void CannotBookWhenAllSeatsAreBooked() {
         //arrange
         int sizeHuman = 1;
         Human human = new Human("John"), superHuman = new Human("Clark");
@@ -50,7 +50,16 @@ class SpaceshipTest {
 
     @Test
     void CannotBookSeatFromOtherSpecies () {
-        //
+        //arrange
+        int sizeMartian = 1;
+        Human superHuman = new Human("Clark");
+
+        underTest = new Spaceship(Map.of(Species.MARTIAN, sizeMartian));
+        //act
+        //assert
+        Assertions.assertFalse(underTest.bookSeat(superHuman.getSpecies(),superHuman.getName()));
+        Assertions.assertEquals(null,underTest.getSeats().get(Species.MARTIAN).get(0).getNameOfPersonBooking());
+
     }
 
 

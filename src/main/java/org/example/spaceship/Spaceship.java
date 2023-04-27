@@ -2,6 +2,7 @@ package org.example.spaceship;
 
 import org.example.Species;
 import org.example.spaceship.seat.Seat;
+import org.example.spaceship.seat.factory.SeatFactory;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -20,7 +21,7 @@ public class Spaceship {
         for (Species type : species_quantity.keySet()) {
             ArrayList <Seat> species_seat = new ArrayList<>();
             for (int i = 0; i < species_quantity.get(type); ++i) {
-                species_seat.add(new Seat(type, type.toString()+(i+1)));
+                species_seat.add(SeatFactory.INSTANCE.createSeat(type, type.toString() +(i+1)));
             }
             seats.put(type, species_seat);
         }
@@ -39,6 +40,16 @@ public class Spaceship {
         }
         return false;
     }
+
+    public void serveSeats(String food) {
+        for (Species species : seats.keySet()) {
+            for (Seat seat : seats.get(species)) {
+                seat.serveMeal(food);
+            }
+        }
+    }
+
+
 
     protected Map<Species, List<Seat>> getSeats() {
         return seats;

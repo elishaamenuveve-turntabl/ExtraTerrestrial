@@ -4,7 +4,7 @@ import org.example.Species;
 
 import java.util.Objects;
 
-public class Seat {
+public abstract class Seat {
     //TODO: Make class abstract, and sort out construction
     protected final Species type;
     protected final String ID;
