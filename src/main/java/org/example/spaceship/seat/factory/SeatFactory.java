@@ -15,7 +15,12 @@ public enum SeatFactory {
             case ("Martian"):
                 return new MartianSeat(id);
         }
-        return new HumanSeat(id);
+        return new Seat(null, id) {
+            @Override
+            public Species getType() {
+                return super.getType();
+            }
+        };
     }
 
 }

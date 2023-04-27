@@ -59,7 +59,6 @@ class SpaceshipTest {
         //assert
         Assertions.assertFalse(underTest.bookSeat(superHuman.getSpecies(),superHuman.getName()));
         Assertions.assertEquals(null,underTest.getSeats().get(Species.MARTIAN).get(0).getNameOfPersonBooking());
-
     }
 
 

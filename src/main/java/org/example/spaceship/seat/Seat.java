@@ -2,7 +2,6 @@ package org.example.spaceship.seat;
 
 import org.example.Species;
 
-import java.util.Objects;
 
 public abstract class Seat {
     //TODO: Make class abstract, and sort out construction

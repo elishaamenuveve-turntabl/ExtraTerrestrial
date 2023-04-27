@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 public class Spaceship {
-    private Map<Species, List<Seat>> seats;
+    private final Map<Species, List<Seat>> seats;
 
     public Spaceship(Map<Species, Integer> species_quantity) {
         seats = new HashMap<>();

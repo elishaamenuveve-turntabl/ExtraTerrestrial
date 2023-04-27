@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df8dbe44-74ed-43d1-acae-22bb5ece1244" name="Changes" comment="Written tests for seat and spaceship">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/planet/Planet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/spaceship/seat/factory/SeatFactory.java" afterDir="false" />
+    <list default="true" id="df8dbe44-74ed-43d1-acae-22bb5ece1244" name="Changes" comment="Added more tests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/celestial/Moon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/celestial/Pluto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/spaceship/Spaceship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/spaceship/Spaceship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/planet/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/celestial/Planet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/spaceship/seat/Seat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/spaceship/seat/Seat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/spaceship/seat/factory/SeatFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/spaceship/seat/factory/SeatFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/spaceship/SpaceshipTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/spaceship/SpaceshipTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/spaceship/seat/SeatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/spaceship/seat/SeatTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682616808427</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added more tests">
+      <created>1682623231528</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682623231528</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,6 +208,7 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Implemented unrefined classes for points 1 to 5" />
     <MESSAGE value="Written tests for seat and spaceship" />
-    <option name="LAST_COMMIT_MESSAGE" value="Written tests for seat and spaceship" />
+    <MESSAGE value="Added more tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more tests" />
   </component>
 </project>
