@@ -1,8 +1,10 @@
 package org.example.organism;
 
+import org.example.Species;
+
 public class Martian extends  Organism{
 
-    public Martian() {
-        super("Martian");
+    public Martian(String name) {
+        super(Species.MARTIAN, name);
     }
 }
