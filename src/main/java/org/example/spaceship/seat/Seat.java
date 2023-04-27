@@ -23,7 +23,7 @@ public class Seat {
     }
 
     public boolean isBooked() {
-        return !Objects.equals(nameOfPersonBooking, "");
+        return nameOfPersonBooking != null;
     }
 
     public void book(String name) {
@@ -37,4 +37,11 @@ public class Seat {
     }
 
 
+    public String getID() {
+        return ID;
+    }
+
+    public String getNameOfPersonBooking() {
+        return nameOfPersonBooking;
+    }
 }

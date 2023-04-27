@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df8dbe44-74ed-43d1-acae-22bb5ece1244" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Species.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/spaceship/seat/HumanSeat.java" afterDir="false" />
+    <list default="true" id="df8dbe44-74ed-43d1-acae-22bb5ece1244" name="Changes" comment="Implemented unrefined classes for points 1 to 5">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/spaceship/SpaceshipTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/spaceship/seat/SeatTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/organism/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/organism/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/organism/Martian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/organism/Martian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/organism/Organism.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/organism/Organism.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/spaceship/Spaceship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/spaceship/Spaceship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/spaceship/seat/MartianSeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/spaceship/seat/MartianSeat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/spaceship/seat/Seat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/spaceship/seat/Seat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/spaceship/seat/seatbooking/SeatBookingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/spaceship/seat/seatbooking/SeatBookingSystem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +22,7 @@
       <list>
         <option value="Class" />
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -49,13 +46,112 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.example.spaceship" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.spaceship.seat" />
+      <recent name="org.example.spaceship" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SpaceshipTest">
+    <configuration name="SeatTest.SeatCanBeBooked" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Extraterrestrial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.spaceship.seat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.spaceship.seat" />
+      <option name="MAIN_CLASS_NAME" value="org.example.spaceship.seat.SeatTest" />
+      <option name="METHOD_NAME" value="SeatCanBeBooked" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpaceshipTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Extraterrestrial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.spaceship.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.spaceship" />
+      <option name="MAIN_CLASS_NAME" value="org.example.spaceship.SpaceshipTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpaceshipTest.canBookSeat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Extraterrestrial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.spaceship.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.spaceship" />
+      <option name="MAIN_CLASS_NAME" value="org.example.spaceship.SpaceshipTest" />
+      <option name="METHOD_NAME" value="canBookSeat" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpaceshipTest.cannotBookSameSeatTwice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Extraterrestrial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.spaceship.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.spaceship" />
+      <option name="MAIN_CLASS_NAME" value="org.example.spaceship.SpaceshipTest" />
+      <option name="METHOD_NAME" value="cannotBookSameSeatTwice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpaceshipTest.seatsGeneratedAreAsSpecified" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Extraterrestrial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.spaceship.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.spaceship" />
+      <option name="MAIN_CLASS_NAME" value="org.example.spaceship.SpaceshipTest" />
+      <option name="METHOD_NAME" value="seatsGeneratedAreAsSpecified" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpaceshipTest" />
+        <item itemvalue="JUnit.SpaceshipTest.cannotBookSameSeatTwice" />
+        <item itemvalue="JUnit.SpaceshipTest.canBookSeat" />
+        <item itemvalue="JUnit.SpaceshipTest.seatsGeneratedAreAsSpecified" />
+        <item itemvalue="JUnit.SeatTest.SeatCanBeBooked" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -73,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682606477496</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implemented unrefined classes for points 1 to 5">
+      <created>1682613940705</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682613940705</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +192,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Implemented unrefined classes for points 1 to 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented unrefined classes for points 1 to 5" />
   </component>
 </project>

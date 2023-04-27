@@ -29,12 +29,18 @@ public class Spaceship {
 
 
     public boolean bookSeat(Species type, String name) {
-        for (Seat seat : seats.get(type)) {
-            if (!seat.isBooked()) {
-                seat.book(name);
-                return true;
+        if (seats.containsKey(type)) {
+            for (Seat seat : seats.get(type)) {
+                if (!seat.isBooked()) {
+                    seat.book(name);
+                    return true;
+                }
             }
         }
         return false;
+    }
+
+    protected Map<Species, List<Seat>> getSeats() {
+        return seats;
     }
 }
